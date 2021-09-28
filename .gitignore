@@ -1,1 +1,3 @@
 node_modules
+addon/content/index.js
+addon/background_scripts/index.js
