@@ -11,7 +11,7 @@ browser.contextMenus.create(
     {
         id: 'highlight-selection',
         title: 'sdwh: highlight selection',
-        contexts: ['page'],
+        contexts: ['selection'],
     },
     onCreated
 )
