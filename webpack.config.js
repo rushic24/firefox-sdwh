@@ -10,3 +10,4 @@ module.exports = {
         filename: '[name]/index.js',
     },
 }
+ 
