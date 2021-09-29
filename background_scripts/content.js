@@ -1,7 +1,9 @@
 /*
 IDEAS:
-- [ ] Keep selections after page refresh
-- [ ] Remove selections
+- [ x ] restore selections after page refresh
+- [ x ] Remove selections on refresh
+- [ ] Notify, selection is available
+- [ ] Cloud sync
 - [ ] Fix allowing multiple highlights on same thing
 - [ ] Fix issue where things not always highlighted
 */
@@ -101,6 +103,9 @@ const handle = (obj) => {
         highlightSelection()
     } else if (obj.message == 'copy') {
         copyAll()
+    }
+    else if (obj.message == 'restoreall'){
+        highlightSelection2()
     }
 }
 

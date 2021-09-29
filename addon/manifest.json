@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Webpack Example",
-    "version": "1.0.0",
-    "description": "A minimal example of how to use npm modules from within a WebExtension.",
+    "name": "Not so dumb web highlighter",
+    "version": "1.0.2",
+    "description": "A simple Firefox extension to make ephemeral text highlights and copy them to the clipboard.",
     "icons": {
         "32": "icons/leftpad-32.png"
     },

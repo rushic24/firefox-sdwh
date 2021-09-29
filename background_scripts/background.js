@@ -11,15 +11,24 @@ browser.contextMenus.create(
     {
         id: 'highlight-selection',
         title: 'sdwh: highlight selection',
-        contexts: ['selection'],
+        contexts: ['page'],
     },
     onCreated
 )
 
+// browser.contextMenus.create(
+//     {
+//         id: 'copy-selections',
+//         title: 'sdwh: copy all selections',
+//         contexts: ['page'],
+//     },
+//     onCreated
+// )
+
 browser.contextMenus.create(
     {
-        id: 'copy-selections',
-        title: 'sdwh: copy all selections',
+        id: 'restore-selections',
+        title: 'sdwh: restore all selections',
         contexts: ['page'],
     },
     onCreated
@@ -33,9 +42,15 @@ browser.contextMenus.onClicked.addListener(function (info, tab) {
                 tabUrl: tab.url,
             })
             break
-        case 'copy-selections':
+        // case 'copy-selections':
+        //     browser.tabs.sendMessage(tab.id, {
+        //         message: 'copy',
+        //         tabUrl: tab.url,
+        //     })
+        //     break
+        case 'restore-selections':
             browser.tabs.sendMessage(tab.id, {
-                message: 'copy',
+                message: 'restoreall',
                 tabUrl: tab.url,
             })
             break
