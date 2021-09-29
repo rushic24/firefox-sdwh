@@ -4,7 +4,7 @@
     "version": "1.0.2",
     "description": "A simple Firefox extension to make ephemeral text highlights and copy them to the clipboard.",
     "icons": {
-        "32": "icons/leftpad-32.png"
+        "32": "icons/icon.ico"
     },
     "permissions": ["<all_urls>", "contextMenus", "clipboardWrite", "storage"],
     "background": {
