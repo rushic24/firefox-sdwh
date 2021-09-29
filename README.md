@@ -1,4 +1,4 @@
-# super dumb web highlighter
+# Not so dumb web highlighter
 
 A simple Firefox extension to make ephemeral text highlights and copy them to the
 clipboard.
