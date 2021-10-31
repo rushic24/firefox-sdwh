@@ -22,6 +22,12 @@ but they tend to either:
 
 3. have very few users, in which case I prefer not to provide the wide
    permissions that these features require.
+4. No way to sync text, I want the highlights to reappear when I visit the same url twice
+
+## Issues:
+1. Some websites don't work with the current logic
+2. If I highlight something and select the same text twice, it gets double highlighted, it should not be
+3. Some urls are like http://www.archlinux.com/helloworld, http://www.archlinux.com/helloworld#bottom-content, note both are same webpages, but the URL is different, highlights should reappear for the same page for such type of url's
 
 
 ## Features
