@@ -24,6 +24,13 @@ but they tend to either:
    permissions that these features require.
 4. No way to sync text, I want the highlights to reappear when I visit the same url twice
 
+
+## How to build it
+
+ - `npm install`
+ - `npm run build`
+ - browse the manifest.json  in the [addon](addon/) folder should to install the addon in `about:debugging`
+
 ## Issues:
 1. Some websites don't work with the current logic
 2. If I highlight something and select the same text twice, it gets double highlighted, it should not be
@@ -34,12 +41,6 @@ but they tend to either:
 
 - Copy the selected text: `Ctrl + Shift + L`, or right click > "highlight selection"
 - Copy all highlights to the clipboard: `Ctrl + Shift + ;`, or right click > "copy all selections"
-
-
-## Build
-
-Use `make` to package up the zip file. This can be installed from file on
-Firefox Developer Edition.
 
 
 ## Releases
@@ -71,19 +72,6 @@ background script.
 ## What it could do
 This could be infinitely extended - injecting global jQuery, adding babel,
 react/jsx, css modules, image processing, local modules and so on.
-
-## What it shows
-
- - How to use npm or custom modules in a WebExtension.
-
-## How to build it
-
- - `npm install`
- - `npm run build`
- - browse the manifest.json to install the addon in `about:debugging`
-
-The WebExtension in the [addon](addon/) folder should now work.
-
 
 
 
