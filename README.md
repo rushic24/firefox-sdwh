@@ -80,12 +80,21 @@ react/jsx, css modules, image processing, local modules and so on.
 
  - `npm install`
  - `npm run build`
+ - browse the manifest.json to install the addon in `about:debugging`
 
 The WebExtension in the [addon](addon/) folder should now work.
 
-## What about Browserify?
-[Browserify](http://browserify.org/) works just as well as webpack for extensions. In the end it's a
-personal choice about your preferred tool.
+
+
+
+
+
+
+
+
+
+
+ ____ 
 
 ## Live-development
 As well as watching the folder with your `manifest.json` in it, you will also
