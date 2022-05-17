@@ -1,6 +1,6 @@
 # Update 2022
 
-I'm archiving this repo. I came across !(https://github.com/Jahn08/WEB-PAGE-HIGHLIGHTER)[https://github.com/Jahn08/WEB-PAGE-HIGHLIGHTER] which perfectly solves the issues this project was having.
+I'm archiving this repo. I came across ![https://github.com/Jahn08/WEB-PAGE-HIGHLIGHTER](https://github.com/Jahn08/WEB-PAGE-HIGHLIGHTER) which perfectly solves the issues this project was having.
 
 
 ---
